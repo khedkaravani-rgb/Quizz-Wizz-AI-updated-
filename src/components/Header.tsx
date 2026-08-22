@@ -1,0 +1,2 @@
+type Props={onStart:()=>void;onLogin:()=>void;student:string};
+export default function Header({onStart,onLogin,student}:Props){return <header><div className="bar"><button className="brand" onClick={onStart}>quizz<span>-</span>wizz</button><nav><a href="#how">How it works</a>{student?<b>Hi, {student}</b>:<button className="link-button" onClick={onLogin}>Log in / Sign up</button>}<button className="outline" onClick={onStart}>Start learning</button></nav></div></header>}

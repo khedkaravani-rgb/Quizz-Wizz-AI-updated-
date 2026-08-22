@@ -1,0 +1,1062 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Avani\Desktop\quizz-wizz-ai\.npmrc
+5 silly config load:file:C:\Users\Avani\.npmrc
+6 silly config load:file:C:\Users\Avani\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Avani\Desktop\quizz-wizz-ai\.npm-cache\_logs\2026-08-21T23_16_12_540Z-
+10 verbose logfile C:\Users\Avani\Desktop\quizz-wizz-ai\.npm-cache\_logs\2026-08-21T23_16_12_540Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest @types/react@^19.2.17
+15 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 472ms
+17 http fetch GET 200 https://registry.npmjs.org/@types%2freact 545ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+19 silly fetch manifest @types/react-dom@^19.2.3
+20 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 125ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+23 silly fetch manifest @vitejs/plugin-react@^6.0.4
+24 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 418ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react set size:undefined disposed:false
+27 silly fetch manifest @rolldown/plugin-babel@^0.1.7 || ^0.2.0
+28 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fplugin-babel cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fplugin-babel 1083ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fplugin-babel set size:undefined disposed:false
+31 silly fetch manifest @babel/core@^7.29.0 || ^8.0.0-rc.1
+32 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 135ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:undefined disposed:false
+35 silly fetch manifest @babel/plugin-transform-runtime@^7.29.0 || ^8.0.0-rc.1
+36 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-runtime cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-runtime 624ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-runtime set size:undefined disposed:false
+39 silly fetch manifest @babel/runtime@^7.27.0 || ^8.0.0-rc.1
+40 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 199ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+43 silly fetch manifest rolldown@^1.0.0-rc.5
+44 silly packumentCache full:https://registry.npmjs.org/rolldown cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/rolldown 485ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/rolldown set size:undefined disposed:false
+47 silly fetch manifest vite@^8.2.0
+48 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/vite 1385ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/vite set size:undefined disposed:false
+51 silly fetch manifest @types/node@^20.19.0 || >=22.12.0
+52 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 426ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+55 silly fetch manifest @vitejs/devtools@^0.4.0 || ^0.5.0
+56 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools 113ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools set size:undefined disposed:false
+59 silly fetch manifest @vitejs/devtools-oxc@^0.5.2
+60 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-oxc cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-oxc 272ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-oxc set size:undefined disposed:false
+63 silly fetch manifest @vitejs/devtools-rolldown@^0.5.2
+64 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-rolldown cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-rolldown 113ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-rolldown set size:undefined disposed:false
+67 silly fetch manifest @vitejs/devtools-vite@^0.5.2
+68 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vite cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vite 703ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vite set size:undefined disposed:false
+71 silly fetch manifest @vitejs/devtools-vitest@^0.5.2
+72 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vitest cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fdevtools-vitest 106ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fdevtools-vitest set size:undefined disposed:false
+75 silly fetch manifest vitest@*
+76 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/vitest 172ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/vitest set size:undefined disposed:false
+79 silly fetch manifest @edge-runtime/vm@*
+80 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/@edge-runtime%2fvm 117ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm set size:undefined disposed:false
+83 silly fetch manifest @opentelemetry/api@^1.9.0
+84 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 348ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+87 silly fetch manifest @vitest/browser-playwright@4.1.11
+88 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-playwright cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-playwright 118ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-playwright set size:undefined disposed:false
+91 silly fetch manifest playwright@*
+92 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/playwright 716ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/playwright set size:undefined disposed:false
+95 silly fetch manifest @vitest/browser-preview@4.1.11
+96 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-preview cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-preview 109ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-preview set size:undefined disposed:false
+99 silly fetch manifest @vitest/browser-webdriverio@4.1.11
+100 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-webdriverio cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-webdriverio 485ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-webdriverio set size:undefined disposed:false
+103 silly fetch manifest webdriverio@*
+104 silly packumentCache full:https://registry.npmjs.org/webdriverio cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/webdriverio 208ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/webdriverio set size:undefined disposed:false
+107 silly fetch manifest puppeteer-core@>=22.x <=24.x
+108 silly packumentCache full:https://registry.npmjs.org/puppeteer-core cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 144ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/puppeteer-core set size:undefined disposed:false
+111 silly fetch manifest @vitest/coverage-istanbul@4.1.11
+112 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-istanbul cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-istanbul 144ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-istanbul set size:undefined disposed:false
+115 silly fetch manifest @vitest/coverage-v8@4.1.11
+116 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-v8 cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-v8 920ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-v8 set size:undefined disposed:false
+119 silly fetch manifest @vitest/browser@4.1.11
+120 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser 148ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser set size:undefined disposed:false
+123 silly fetch manifest @vitest/ui@4.1.11
+124 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@vitest%2fui 261ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui set size:undefined disposed:false
+127 silly fetch manifest happy-dom@*
+128 silly packumentCache full:https://registry.npmjs.org/happy-dom cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/happy-dom 219ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/happy-dom set size:undefined disposed:false
+131 silly fetch manifest jsdom@*
+132 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/jsdom 131ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/jsdom set size:undefined disposed:false
+135 silly fetch manifest canvas@^3.2.3
+136 silly packumentCache full:https://registry.npmjs.org/canvas cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/canvas 113ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/canvas set size:undefined disposed:false
+139 silly fetch manifest esbuild@^0.27.0 || ^0.28.0
+140 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/esbuild 182ms (cache miss)
+142 silly packumentCache full:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+143 silly fetch manifest jiti@>=1.21.0
+144 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/jiti 110ms (cache miss)
+146 silly packumentCache full:https://registry.npmjs.org/jiti set size:undefined disposed:false
+147 silly fetch manifest less@^4.0.0
+148 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/less 353ms (cache miss)
+150 silly packumentCache full:https://registry.npmjs.org/less set size:undefined disposed:false
+151 silly fetch manifest sass@^1.70.0
+152 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/sass 125ms (cache miss)
+154 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+155 silly fetch manifest sass-embedded@^1.70.0
+156 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/sass-embedded 112ms (cache miss)
+158 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:undefined disposed:false
+159 silly fetch manifest stylus@>=0.54.8
+160 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/stylus 118ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/stylus set size:undefined disposed:false
+163 silly fetch manifest sugarss@^5.0.0
+164 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/sugarss 92ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/sugarss set size:undefined disposed:false
+167 silly fetch manifest postcss@^8.3.3
+168 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/postcss 128ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/postcss set size:undefined disposed:false
+171 silly fetch manifest terser@^5.16.0
+172 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/terser 154ms (cache miss)
+174 silly packumentCache full:https://registry.npmjs.org/terser set size:undefined disposed:false
+175 silly fetch manifest tsx@^4.8.1
+176 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/tsx 101ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+179 silly fetch manifest yaml@^2.4.2
+180 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/yaml 100ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+183 silly fetch manifest babel-plugin-react-compiler@^1.0.0
+184 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 130ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:undefined disposed:false
+187 silly fetch manifest oxc-transform-react@^0.145.0
+188 silly packumentCache full:https://registry.npmjs.org/oxc-transform-react cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/oxc-transform-react 415ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/oxc-transform-react set size:undefined disposed:false
+191 silly fetch manifest typescript@~6.0.2
+192 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/typescript 428ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+195 silly placeDep ROOT @types/react@19.2.18 OK for: quizz-wizz-ai@1.0.0 want: ^19.2.17
+196 silly placeDep ROOT @types/react-dom@19.2.4 OK for: quizz-wizz-ai@1.0.0 want: ^19.2.3
+197 silly placeDep ROOT @vitejs/plugin-react@6.1.0 OK for: quizz-wizz-ai@1.0.0 want: ^6.0.4
+198 silly placeDep ROOT vite@8.2.2 OK for: @vitejs/plugin-react@6.1.0 want: ^8.0.0
+199 silly placeDep ROOT typescript@6.0.3 REPLACE for: quizz-wizz-ai@1.0.0 want: ~6.0.2
+200 silly fetch manifest csstype@^3.2.2
+201 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+202 silly fetch manifest @rolldown/pluginutils@^1.0.1
+203 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fpluginutils cache-miss
+204 silly fetch manifest rolldown@~1.2.4
+205 silly packumentCache full:https://registry.npmjs.org/rolldown cache-miss
+206 silly fetch manifest picomatch@^4.0.5
+207 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+208 silly fetch manifest lightningcss@^1.33.0
+209 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+210 http cache https://registry.npmjs.org/rolldown 26ms (cache hit)
+211 silly packumentCache full:https://registry.npmjs.org/rolldown set size:3795090 disposed:false
+212 http fetch GET 200 https://registry.npmjs.org/csstype 120ms (cache miss)
+213 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+214 http fetch GET 200 https://registry.npmjs.org/picomatch 290ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+216 http fetch GET 200 https://registry.npmjs.org/lightningcss 338ms (cache miss)
+217 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:undefined disposed:false
+218 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fpluginutils 362ms (cache miss)
+219 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fpluginutils set size:undefined disposed:false
+220 silly placeDep ROOT csstype@3.2.3 OK for: @types/react@19.2.18 want: ^3.2.2
+221 silly placeDep ROOT @rolldown/pluginutils@1.0.1 OK for: @vitejs/plugin-react@6.1.0 want: ^1.0.1
+222 silly placeDep ROOT lightningcss@1.33.0 OK for: vite@8.2.2 want: ^1.33.0
+223 silly placeDep node_modules/vite picomatch@4.0.5 OK for: vite@8.2.2 want: ^4.0.5
+224 silly placeDep ROOT rolldown@1.2.5 OK for: vite@8.2.2 want: ~1.2.4
+225 silly fetch manifest detect-libc@^2.0.3
+226 silly packumentCache full:https://registry.npmjs.org/detect-libc cache-miss
+227 silly fetch manifest lightningcss-darwin-x64@1.33.0
+228 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+229 silly fetch manifest lightningcss-linux-x64-gnu@1.33.0
+230 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+231 silly fetch manifest lightningcss-win32-x64-msvc@1.33.0
+232 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc cache-miss
+233 silly fetch manifest lightningcss-win32-arm64-msvc@1.33.0
+234 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+235 silly fetch manifest lightningcss-darwin-arm64@1.33.0
+236 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+237 silly fetch manifest lightningcss-linux-arm64-gnu@1.33.0
+238 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+239 http fetch GET 200 https://registry.npmjs.org/detect-libc 88ms (cache miss)
+240 silly packumentCache full:https://registry.npmjs.org/detect-libc set size:undefined disposed:false
+241 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.33.0
+242 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+243 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 91ms (cache miss)
+244 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:undefined disposed:false
+245 silly fetch manifest lightningcss-linux-arm64-musl@1.33.0
+246 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+247 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 151ms (cache miss)
+248 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:undefined disposed:false
+249 silly fetch manifest lightningcss-linux-x64-musl@1.33.0
+250 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+251 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc 158ms (cache miss)
+252 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc set size:undefined disposed:false
+253 silly fetch manifest lightningcss-freebsd-x64@1.33.0
+254 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+255 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 92ms (cache miss)
+256 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:undefined disposed:false
+257 silly fetch manifest lightningcss-android-arm64@1.33.0
+258 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+259 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 100ms (cache miss)
+260 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:undefined disposed:false
+261 silly fetch manifest @oxc-project/types@=0.146.0
+262 silly packumentCache full:https://registry.npmjs.org/@oxc-project%2ftypes cache-miss
+263 http fetch GET 200 https://registry.npmjs.org/lightningcss-android-arm64 128ms (cache miss)
+264 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:undefined disposed:false
+265 silly fetch manifest @rolldown/binding-darwin-x64@1.2.5
+266 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 cache-miss
+267 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 366ms (cache miss)
+268 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:undefined disposed:false
+269 silly fetch manifest @rolldown/binding-freebsd-x64@1.2.5
+270 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 cache-miss
+271 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 367ms (cache miss)
+272 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:undefined disposed:false
+273 silly fetch manifest @rolldown/binding-darwin-arm64@1.2.5
+274 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 cache-miss
+275 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 370ms (cache miss)
+276 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:undefined disposed:false
+277 silly fetch manifest @rolldown/binding-android-arm64@1.2.5
+278 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 cache-miss
+279 http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 315ms (cache miss)
+280 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:undefined disposed:false
+281 silly fetch manifest @rolldown/binding-linux-x64-gnu@1.2.5
+282 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu cache-miss
+283 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 326ms (cache miss)
+284 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:undefined disposed:false
+285 silly fetch manifest @rolldown/binding-linux-x64-musl@1.2.5
+286 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl cache-miss
+287 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu 140ms (cache miss)
+288 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu set size:undefined disposed:false
+289 silly fetch manifest @rolldown/binding-win32-x64-msvc@1.2.5
+290 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc cache-miss
+291 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc 410ms (cache miss)
+292 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-x64-msvc set size:undefined disposed:false
+293 silly fetch manifest @rolldown/binding-linux-arm64-gnu@1.2.5
+294 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu cache-miss
+295 http fetch GET 200 https://registry.npmjs.org/@oxc-project%2ftypes 846ms (cache miss)
+296 silly packumentCache full:https://registry.npmjs.org/@oxc-project%2ftypes set size:undefined disposed:false
+297 silly fetch manifest @rolldown/binding-linux-ppc64-gnu@1.2.5
+298 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu cache-miss
+299 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 671ms (cache miss)
+300 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm64 set size:undefined disposed:false
+301 silly fetch manifest @rolldown/binding-linux-s390x-gnu@1.2.5
+302 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu cache-miss
+303 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 771ms (cache miss)
+304 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-freebsd-x64 set size:undefined disposed:false
+305 silly fetch manifest @rolldown/binding-android-arm-eabi@1.2.5
+306 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm-eabi cache-miss
+307 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl 745ms (cache miss)
+308 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl set size:undefined disposed:false
+309 silly fetch manifest @rolldown/binding-linux-arm64-musl@1.2.5
+310 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl cache-miss
+311 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 960ms (cache miss)
+312 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-x64 set size:undefined disposed:false
+313 silly fetch manifest @rolldown/binding-win32-arm64-msvc@1.2.5
+314 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc cache-miss
+315 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 955ms (cache miss)
+316 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-darwin-arm64 set size:undefined disposed:false
+317 silly fetch manifest @rolldown/binding-openharmony-arm64@1.2.5
+318 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 cache-miss
+319 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu 327ms (cache miss)
+320 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-s390x-gnu set size:undefined disposed:false
+321 silly fetch manifest @rolldown/binding-linux-arm-gnueabihf@1.2.5
+322 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf cache-miss
+323 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu 532ms (cache miss)
+324 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-gnu set size:undefined disposed:false
+325 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu 587ms (cache miss)
+326 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-ppc64-gnu set size:undefined disposed:false
+327 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl 407ms (cache miss)
+328 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm64-musl set size:undefined disposed:false
+329 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-android-arm-eabi 694ms (cache miss)
+330 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-android-arm-eabi set size:undefined disposed:false
+331 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc 624ms (cache miss)
+332 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-win32-arm64-msvc set size:undefined disposed:false
+333 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 704ms (cache miss)
+334 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-openharmony-arm64 set size:undefined disposed:false
+335 http fetch GET 200 https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf 984ms (cache miss)
+336 silly packumentCache full:https://registry.npmjs.org/@rolldown%2fbinding-linux-arm-gnueabihf set size:undefined disposed:false
+337 silly placeDep ROOT detect-libc@2.1.2 OK for: lightningcss@1.33.0 want: ^2.0.3
+338 silly placeDep ROOT lightningcss-android-arm64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+339 silly placeDep ROOT lightningcss-darwin-arm64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+340 silly placeDep ROOT lightningcss-darwin-x64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+341 silly placeDep ROOT lightningcss-freebsd-x64@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+342 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+343 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+344 silly placeDep ROOT lightningcss-linux-arm64-musl@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+345 silly placeDep ROOT lightningcss-linux-x64-gnu@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+346 silly placeDep ROOT lightningcss-linux-x64-musl@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+347 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+348 silly placeDep ROOT lightningcss-win32-x64-msvc@1.33.0 OK for: lightningcss@1.33.0 want: 1.33.0
+349 silly placeDep ROOT @oxc-project/types@0.146.0 OK for: rolldown@1.2.5 want: =0.146.0
+350 silly placeDep ROOT @rolldown/binding-android-arm-eabi@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+351 silly placeDep ROOT @rolldown/binding-android-arm64@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+352 silly placeDep ROOT @rolldown/binding-darwin-arm64@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+353 silly placeDep ROOT @rolldown/binding-darwin-x64@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+354 silly placeDep ROOT @rolldown/binding-freebsd-x64@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+355 silly placeDep ROOT @rolldown/binding-linux-arm-gnueabihf@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+356 silly placeDep ROOT @rolldown/binding-linux-arm64-gnu@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+357 silly placeDep ROOT @rolldown/binding-linux-arm64-musl@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+358 silly placeDep ROOT @rolldown/binding-linux-ppc64-gnu@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+359 silly placeDep ROOT @rolldown/binding-linux-s390x-gnu@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+360 silly placeDep ROOT @rolldown/binding-linux-x64-gnu@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+361 silly placeDep ROOT @rolldown/binding-linux-x64-musl@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+362 silly placeDep ROOT @rolldown/binding-openharmony-arm64@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+363 silly placeDep ROOT @rolldown/binding-win32-arm64-msvc@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+364 silly placeDep ROOT @rolldown/binding-win32-x64-msvc@1.2.5 OK for: rolldown@1.2.5 want: 1.2.5
+365 silly reify mark retired [
+365 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@alloc\\quick-lru'
+365 silly reify ]
+366 silly reify mark retired [
+366 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\gen-mapping'
+366 silly reify ]
+367 silly reify mark retired [
+367 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\resolve-uri'
+367 silly reify ]
+368 silly reify mark retired [
+368 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\sourcemap-codec'
+368 silly reify ]
+369 silly reify mark retired [
+369 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\trace-mapping'
+369 silly reify ]
+370 silly reify mark retired [
+370 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\fs.scandir'
+370 silly reify ]
+371 silly reify mark retired [
+371 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\fs.stat'
+371 silly reify ]
+372 silly reify mark retired [
+372 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\fs.walk'
+372 silly reify ]
+373 silly reify mark retired [
+373 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@typescript\\typescript-win32-x64'
+373 silly reify ]
+374 silly reify mark retired [
+374 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\any-promise'
+374 silly reify ]
+375 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\anymatch' ]
+376 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\arg' ]
+377 silly reify mark retired [
+377 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\autoprefixer',
+377 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\autoprefixer',
+377 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\autoprefixer.cmd',
+377 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\autoprefixer.ps1'
+377 silly reify ]
+378 silly reify mark retired [
+378 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\baseline-browser-mapping',
+378 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\baseline-browser-mapping',
+378 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+378 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+378 silly reify ]
+379 silly reify mark retired [
+379 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\binary-extensions'
+379 silly reify ]
+380 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\braces' ]
+381 silly reify mark retired [
+381 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\browserslist',
+381 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\browserslist',
+381 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\browserslist.cmd',
+381 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\browserslist.ps1'
+381 silly reify ]
+382 silly reify mark retired [
+382 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\camelcase-css'
+382 silly reify ]
+383 silly reify mark retired [
+383 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\caniuse-lite'
+383 silly reify ]
+384 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\chokidar' ]
+385 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\commander' ]
+386 silly reify mark retired [
+386 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\cssesc',
+386 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\cssesc',
+386 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\cssesc.cmd',
+386 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\cssesc.ps1'
+386 silly reify ]
+387 silly reify mark retired [
+387 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\didyoumean'
+387 silly reify ]
+388 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\dlv' ]
+389 silly reify mark retired [
+389 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\electron-to-chromium'
+389 silly reify ]
+390 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\es-errors' ]
+391 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\escalade' ]
+392 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fast-glob' ]
+393 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fastq' ]
+394 silly reify mark retired [
+394 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fill-range'
+394 silly reify ]
+395 silly reify mark retired [
+395 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fraction.js'
+395 silly reify ]
+396 silly reify mark retired [
+396 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\function-bind'
+396 silly reify ]
+397 silly reify mark retired [
+397 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\glob-parent'
+397 silly reify ]
+398 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\hasown' ]
+399 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\install' ]
+400 silly reify mark retired [
+400 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-binary-path'
+400 silly reify ]
+401 silly reify mark retired [
+401 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-core-module'
+401 silly reify ]
+402 silly reify mark retired [
+402 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-extglob'
+402 silly reify ]
+403 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-glob' ]
+404 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-number' ]
+405 silly reify mark retired [
+405 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\jiti',
+405 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\jiti',
+405 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\jiti.cmd',
+405 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\jiti.ps1'
+405 silly reify ]
+406 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\lilconfig' ]
+407 silly reify mark retired [
+407 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\lines-and-columns'
+407 silly reify ]
+408 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\merge2' ]
+409 silly reify mark retired [
+409 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\micromatch'
+409 silly reify ]
+410 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\mz' ]
+411 silly reify mark retired [
+411 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\node-releases'
+411 silly reify ]
+412 silly reify mark retired [
+412 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\normalize-path'
+412 silly reify ]
+413 silly reify mark retired [
+413 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\npm',
+413 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npm',
+413 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npm.cmd',
+413 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npm.ps1',
+413 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npx',
+413 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npx.cmd',
+413 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npx.ps1'
+413 silly reify ]
+414 silly reify mark retired [
+414 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\object-assign'
+414 silly reify ]
+415 silly reify mark retired [
+415 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\object-hash'
+415 silly reify ]
+416 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\openai' ]
+417 silly reify mark retired [
+417 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\path-parse'
+417 silly reify ]
+418 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\picomatch' ]
+419 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\pirates' ]
+420 silly reify mark retired [
+420 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-import'
+420 silly reify ]
+421 silly reify mark retired [
+421 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-js'
+421 silly reify ]
+422 silly reify mark retired [
+422 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-load-config'
+422 silly reify ]
+423 silly reify mark retired [
+423 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-nested'
+423 silly reify ]
+424 silly reify mark retired [
+424 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-selector-parser'
+424 silly reify ]
+425 silly reify mark retired [
+425 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-value-parser'
+425 silly reify ]
+426 silly reify mark retired [
+426 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\queue-microtask'
+426 silly reify ]
+427 silly reify mark retired [
+427 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\read-cache'
+427 silly reify ]
+428 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\readdirp' ]
+429 silly reify mark retired [
+429 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\resolve',
+429 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\resolve',
+429 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\resolve.cmd',
+429 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\resolve.ps1'
+429 silly reify ]
+430 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\reusify' ]
+431 silly reify mark retired [
+431 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\run-parallel'
+431 silly reify ]
+432 silly reify mark retired [
+432 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\sucrase',
+432 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase',
+432 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase.cmd',
+432 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase.ps1',
+432 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase-node',
+432 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase-node.cmd',
+432 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase-node.ps1'
+432 silly reify ]
+433 silly reify mark retired [
+433 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\supabase-js'
+433 silly reify ]
+434 silly reify mark retired [
+434 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\supports-preserve-symlinks-flag'
+434 silly reify ]
+435 silly reify mark retired [
+435 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\tailwindcss',
+435 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwind',
+435 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwind.cmd',
+435 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwind.ps1',
+435 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwindcss',
+435 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwindcss.cmd',
+435 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwindcss.ps1'
+435 silly reify ]
+436 silly reify mark retired [ 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\thenify' ]
+437 silly reify mark retired [
+437 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\thenify-all'
+437 silly reify ]
+438 silly reify mark retired [
+438 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\to-regex-range'
+438 silly reify ]
+439 silly reify mark retired [
+439 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\ts-interface-checker'
+439 silly reify ]
+440 silly reify mark retired [
+440 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\typescript',
+440 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tsc',
+440 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tsc.cmd',
+440 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tsc.ps1'
+440 silly reify ]
+441 silly reify mark retired [
+441 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\update-browserslist-db',
+441 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\update-browserslist-db',
+441 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\update-browserslist-db.cmd',
+441 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\update-browserslist-db.ps1'
+441 silly reify ]
+442 silly reify mark retired [
+442 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\util-deprecate'
+442 silly reify ]
+443 silly reify moves {
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@alloc\\quick-lru': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@alloc\\.quick-lru-cE5EIFax',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\gen-mapping': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\.gen-mapping-ACPJe963',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\resolve-uri': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\.resolve-uri-0Ha7Cjgf',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\sourcemap-codec': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\.sourcemap-codec-A2OYP0Qd',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\trace-mapping': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@jridgewell\\.trace-mapping-PR8x0pWn',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\fs.scandir': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\.fs.scandir-fXilso0B',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\fs.stat': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\.fs.stat-ZifLuevf',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\fs.walk': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@nodelib\\.fs.walk-C5hAWuah',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@typescript\\typescript-win32-x64': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\@typescript\\.typescript-win32-x64-dj5Vi6q5',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\any-promise': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.any-promise-QYn3bYpI',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\anymatch': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.anymatch-1TzpKLyv',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\arg': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.arg-Mzcghuu4',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\autoprefixer': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.autoprefixer-L3EvRy0R',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\autoprefixer': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.autoprefixer-lkj9JavB',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\autoprefixer.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.autoprefixer.cmd-N1MDW8PL',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\autoprefixer.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.autoprefixer.ps1-QJVn9hbH',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\baseline-browser-mapping': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.baseline-browser-mapping-SIdx9lOA',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.baseline-browser-mapping-D5xlVHAv',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.baseline-browser-mapping.cmd-85TUq5X2',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.baseline-browser-mapping.ps1-TrWG0jqO',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\binary-extensions': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.binary-extensions-99XbwXgZ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\braces': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.braces-WAbmkKqh',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\browserslist': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.browserslist-iyxHa4Sc',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\browserslist': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.browserslist-Bw9pKAx8',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.browserslist.cmd-tqkfTUvQ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.browserslist.ps1-FgyrMA88',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\camelcase-css': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.camelcase-css-jpjdYSAu',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\caniuse-lite': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.caniuse-lite-Z2bajStH',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\chokidar': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.chokidar-6xQPKcJX',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\commander': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.commander-DC3m38WA',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\cssesc': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.cssesc-M95cQRc9',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\cssesc': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.cssesc-0zO9REHN',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.cssesc.cmd-VdnC4NNt',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.cssesc.ps1-dVJLVfGP',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\didyoumean': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.didyoumean-sPsXPzr2',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\dlv': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.dlv-e6EchdyZ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\electron-to-chromium': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.electron-to-chromium-U5XGAGiJ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\es-errors': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.es-errors-BnfWQuyO',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\escalade': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.escalade-3AR9nLMz',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fast-glob': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.fast-glob-13OJLrwO',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fastq': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.fastq-8Hza4jyq',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fill-range': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.fill-range-QF0k8CWn',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\fraction.js': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.fraction.js-0FW8zc2T',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\function-bind': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.function-bind-t5Olgc1s',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\glob-parent': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.glob-parent-wWsH3xaE',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\hasown': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.hasown-CwoiO9xf',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\install': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.install-QpJdA3gu',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-binary-path': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.is-binary-path-M5YwQqcO',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-core-module': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.is-core-module-i6vmVQvB',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-extglob': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.is-extglob-FInTtMVr',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-glob': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.is-glob-DQ7suLZZ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\is-number': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.is-number-BY2xNwfW',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\jiti': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.jiti-ixkmxab8',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\jiti': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.jiti-w76bmjdT',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.jiti.cmd-Cbg9ORrQ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.jiti.ps1-AL5RTfLK',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\lilconfig': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.lilconfig-L0yBf0gQ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\lines-and-columns': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.lines-and-columns-qbhbdDIC',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\merge2': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.merge2-iL6VsItV',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\micromatch': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.micromatch-n7QqRkYK',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\mz': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.mz-ZLxH7ZQs',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\node-releases': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.node-releases-yypMaCnp',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\normalize-path': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.normalize-path-wckh9QU7',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\npm': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.npm-cSn2PV0J',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npm': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.npm-JwPWpaCV',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npm.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.npm.cmd-rE0DIpO5',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npm.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.npm.ps1-yqK5MI2t',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npx': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.npx-0UyFBXFQ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npx.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.npx.cmd-VWuL1kpR',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\npx.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.npx.ps1-o7GsLmXT',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\object-assign': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.object-assign-MljvmkQY',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\object-hash': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.object-hash-JWZKINy9',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\openai': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.openai-UsiphLrN',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\path-parse': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.path-parse-msXrqRIj',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\picomatch': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.picomatch-tyLs2iAT',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\pirates': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.pirates-vEiT10zW',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-import': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.postcss-import-FUf2YiRu',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-js': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.postcss-js-y2jFcljO',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-load-config': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.postcss-load-config-ZvhGfrg8',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-nested': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.postcss-nested-TcNGzZAA',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-selector-parser': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.postcss-selector-parser-bZqmiHMn',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\postcss-value-parser': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.postcss-value-parser-rZg9TxOB',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\queue-microtask': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.queue-microtask-QsLE1TNt',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\read-cache': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.read-cache-kcl7hWua',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\readdirp': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.readdirp-ThydNJpW',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\resolve': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.resolve-oycZdJuf',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\resolve': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.resolve-ILe8OrsS',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.resolve.cmd-0MymXzWG',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.resolve.ps1-Yb2bDIwH',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\reusify': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.reusify-U2mox2oP',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\run-parallel': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.run-parallel-0XxK6CdK',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\sucrase': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.sucrase-sPNRi3F5',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.sucrase-xjKVo3ZK',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.sucrase.cmd-yqGJYWXb',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.sucrase.ps1-Di41EaEP',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase-node': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.sucrase-node-DoE7gnPJ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.sucrase-node.cmd-nwa1cQpk',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.sucrase-node.ps1-Ch0MUdNy',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\supabase-js': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.supabase-js-hkM8oHCn',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\supports-preserve-symlinks-flag': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.supports-preserve-symlinks-flag-T2zNJOPy',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\tailwindcss': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.tailwindcss-PzZUPuiz',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwind': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tailwind-BBbR1uDr',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tailwind.cmd-ey5HCEPn',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tailwind.ps1-LaDFuEz8',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tailwindcss-ZAx2gMc0',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tailwindcss.cmd-wky4e8Cr',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tailwindcss.ps1-F60Oq8la',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\thenify': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.thenify-nH5XGGc2',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\thenify-all': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.thenify-all-EgOGuZa8',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\to-regex-range': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.to-regex-range-WF7B3dAK',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\ts-interface-checker': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.ts-interface-checker-7372DXRd',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\typescript': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.typescript-GUvMKsia',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tsc': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tsc-1kSfxb0C',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tsc.cmd-bnopZkJm',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.tsc.ps1-iPUG8Gmg',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\update-browserslist-db': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.update-browserslist-db-4V8Uq0Nx',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.update-browserslist-db-Yxqr6k64',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.update-browserslist-db.cmd-MXhp5GzQ',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.bin\\.update-browserslist-db.ps1-KDxPhkDt',
+443 silly reify   'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\util-deprecate': 'C:\\Users\\Avani\\Desktop\\quizz-wizz-ai\\node_modules\\.util-deprecate-4KVJ4X0i'
+443 silly reify }
+444 silly audit bulk request {
+444 silly audit   fsevents: [ '2.3.3' ],
+444 silly audit   nanoid: [ '3.3.18' ],
+444 silly audit   tinyglobby: [ '0.2.17' ],
+444 silly audit   fdir: [ '6.5.0' ],
+444 silly audit   picomatch: [ '4.0.5' ],
+444 silly audit   picocolors: [ '1.1.1' ],
+444 silly audit   postcss: [ '8.5.26' ],
+444 silly audit   react: [ '19.2.8' ],
+444 silly audit   'react-dom': [ '19.2.8' ],
+444 silly audit   scheduler: [ '0.27.0' ],
+444 silly audit   'source-map-js': [ '1.2.1' ],
+444 silly audit   '@types/react': [ '19.2.18' ],
+444 silly audit   '@types/react-dom': [ '19.2.4' ],
+444 silly audit   '@vitejs/plugin-react': [ '6.1.0' ],
+444 silly audit   vite: [ '8.2.2' ],
+444 silly audit   typescript: [ '6.0.3' ],
+444 silly audit   csstype: [ '3.2.3' ],
+444 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+444 silly audit   lightningcss: [ '1.33.0' ],
+444 silly audit   rolldown: [ '1.2.5' ],
+444 silly audit   'detect-libc': [ '2.1.2' ],
+444 silly audit   'lightningcss-android-arm64': [ '1.33.0' ],
+444 silly audit   'lightningcss-darwin-arm64': [ '1.33.0' ],
+444 silly audit   'lightningcss-darwin-x64': [ '1.33.0' ],
+444 silly audit   'lightningcss-freebsd-x64': [ '1.33.0' ],
+444 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.33.0' ],
+444 silly audit   'lightningcss-linux-arm64-gnu': [ '1.33.0' ],
+444 silly audit   'lightningcss-linux-arm64-musl': [ '1.33.0' ],
+444 silly audit   'lightningcss-linux-x64-gnu': [ '1.33.0' ],
+444 silly audit   'lightningcss-linux-x64-musl': [ '1.33.0' ],
+444 silly audit   'lightningcss-win32-arm64-msvc': [ '1.33.0' ],
+444 silly audit   'lightningcss-win32-x64-msvc': [ '1.33.0' ],
+444 silly audit   '@oxc-project/types': [ '0.146.0' ],
+444 silly audit   '@rolldown/binding-android-arm-eabi': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-android-arm64': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-darwin-arm64': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-darwin-x64': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-freebsd-x64': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.2.5' ],
+444 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.2.5' ]
+444 silly audit }
+445 http cache @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.146.0.tgz 0ms (cache hit)
+446 http cache @rolldown/binding-win32-x64-msvc@https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.5.tgz 0ms (cache hit)
+447 http cache @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 0ms (cache hit)
+448 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+449 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.0.tgz 0ms (cache hit)
+450 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.4.tgz 0ms (cache hit)
+451 http cache lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz 0ms (cache hit)
+452 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz 0ms (cache hit)
+453 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+454 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.18.tgz 0ms (cache hit)
+455 silly tarball no local data for @oxc-project/types@https://registry.npmjs.org/@oxc-project/types/-/types-0.146.0.tgz. Extracting by manifest.
+456 silly tarball no local data for @rolldown/binding-win32-x64-msvc@https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.5.tgz. Extracting by manifest.
+457 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz 0ms (cache hit)
+458 silly tarball no local data for @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz. Extracting by manifest.
+459 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+460 silly tarball no local data for @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.0.tgz. Extracting by manifest.
+461 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.4.tgz. Extracting by manifest.
+462 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz. Extracting by manifest.
+463 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz. Extracting by manifest.
+464 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+465 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.18.tgz. Extracting by manifest.
+466 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 0ms (cache hit)
+467 http cache vite@https://registry.npmjs.org/vite/-/vite-8.2.2.tgz 0ms (cache hit)
+468 http cache rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.2.5.tgz 0ms (cache hit)
+469 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz. Extracting by manifest.
+470 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz. Extracting by manifest.
+471 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-8.2.2.tgz. Extracting by manifest.
+472 silly tarball no local data for rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.2.5.tgz. Extracting by manifest.
+473 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 127ms (cache miss)
+474 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 316ms
+475 silly audit report {}
+476 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz 356ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.4.tgz 378ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/@oxc-project/types/-/types-0.146.0.tgz 382ms (cache miss)
+479 http fetch GET 200 https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz 410ms (cache miss)
+480 http fetch GET 200 https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.0.tgz 419ms (cache miss)
+481 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.2.18.tgz 450ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz 455ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 495ms (cache miss)
+484 http fetch GET 200 https://registry.npmjs.org/rolldown/-/rolldown-1.2.5.tgz 732ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-8.2.2.tgz 869ms (cache miss)
+486 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.5.tgz 2629ms (cache miss)
+487 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz 2814ms (cache miss)
+488 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.33.0.tgz 3251ms (cache miss)
+489 silly ADD node_modules/@rolldown/binding-win32-x64-msvc
+490 silly ADD node_modules/@oxc-project/types
+491 silly ADD node_modules/lightningcss-win32-x64-msvc
+492 silly ADD node_modules/detect-libc
+493 silly ADD node_modules/rolldown
+494 silly ADD node_modules/lightningcss
+495 silly ADD node_modules/@rolldown/pluginutils
+496 silly ADD node_modules/csstype
+497 silly ADD node_modules/vite
+498 silly ADD node_modules/vite/node_modules/picomatch
+499 silly ADD node_modules/@vitejs/plugin-react
+500 silly ADD node_modules/@types/react-dom
+501 silly ADD node_modules/@types/react
+502 silly REMOVE node_modules/util-deprecate
+503 silly REMOVE node_modules/update-browserslist-db
+504 silly CHANGE node_modules/typescript
+505 silly REMOVE node_modules/ts-interface-checker
+506 silly REMOVE node_modules/to-regex-range
+507 silly REMOVE node_modules/thenify-all
+508 silly REMOVE node_modules/thenify
+509 silly REMOVE node_modules/tailwindcss
+510 silly REMOVE node_modules/supports-preserve-symlinks-flag
+511 silly REMOVE node_modules/supabase-js
+512 silly REMOVE node_modules/sucrase
+513 silly REMOVE node_modules/run-parallel
+514 silly REMOVE node_modules/reusify
+515 silly REMOVE node_modules/resolve
+516 silly REMOVE node_modules/readdirp
+517 silly REMOVE node_modules/read-cache
+518 silly REMOVE node_modules/queue-microtask
+519 silly REMOVE node_modules/postcss-value-parser
+520 silly REMOVE node_modules/postcss-selector-parser
+521 silly REMOVE node_modules/postcss-nested
+522 silly REMOVE node_modules/postcss-load-config
+523 silly REMOVE node_modules/postcss-js
+524 silly REMOVE node_modules/postcss-import
+525 silly REMOVE node_modules/pirates
+526 silly REMOVE node_modules/picomatch
+527 silly REMOVE node_modules/path-parse
+528 silly REMOVE node_modules/openai
+529 silly REMOVE node_modules/object-hash
+530 silly REMOVE node_modules/object-assign
+531 silly REMOVE node_modules/npm
+532 silly REMOVE node_modules/npm/node_modules/yallist
+533 silly REMOVE node_modules/npm/node_modules/write-file-atomic
+534 silly REMOVE node_modules/npm/node_modules/which
+535 silly REMOVE node_modules/npm/node_modules/walk-up-path
+536 silly REMOVE node_modules/npm/node_modules/validate-npm-package-name
+537 silly REMOVE node_modules/npm/node_modules/util-deprecate
+538 silly REMOVE node_modules/npm/node_modules/undici
+539 silly REMOVE node_modules/npm/node_modules/tuf-js
+540 silly REMOVE node_modules/npm/node_modules/treeverse
+541 silly REMOVE node_modules/npm/node_modules/tinyglobby
+542 silly REMOVE node_modules/npm/node_modules/tinyglobby/node_modules/picomatch
+543 silly REMOVE node_modules/npm/node_modules/tinyglobby/node_modules/fdir
+544 silly REMOVE node_modules/npm/node_modules/tiny-relative-date
+545 silly REMOVE node_modules/npm/node_modules/text-table
+546 silly REMOVE node_modules/npm/node_modules/tar
+547 silly REMOVE node_modules/npm/node_modules/supports-color
+548 silly REMOVE node_modules/npm/node_modules/ssri
+549 silly REMOVE node_modules/npm/node_modules/spdx-license-ids
+550 silly REMOVE node_modules/npm/node_modules/spdx-expression-parse
+551 silly REMOVE node_modules/npm/node_modules/spdx-exceptions
+552 silly REMOVE node_modules/npm/node_modules/socks-proxy-agent
+553 silly REMOVE node_modules/npm/node_modules/socks-proxy-agent/node_modules/agent-base
+554 silly REMOVE node_modules/npm/node_modules/socks
+555 silly REMOVE node_modules/npm/node_modules/smart-buffer
+556 silly REMOVE node_modules/npm/node_modules/sigstore
+557 silly REMOVE node_modules/npm/node_modules/signal-exit
+558 silly REMOVE node_modules/npm/node_modules/semver
+559 silly REMOVE node_modules/npm/node_modules/safer-buffer
+560 silly REMOVE node_modules/npm/node_modules/read
+561 silly REMOVE node_modules/npm/node_modules/qrcode-terminal
+562 silly REMOVE node_modules/npm/node_modules/proxy-agent-negotiate
+563 silly REMOVE node_modules/npm/node_modules/promzard
+564 silly REMOVE node_modules/npm/node_modules/promise-call-limit
+565 silly REMOVE node_modules/npm/node_modules/promise-all-reject-late
+566 silly REMOVE node_modules/npm/node_modules/proggy
+567 silly REMOVE node_modules/npm/node_modules/proc-log
+568 silly REMOVE node_modules/npm/node_modules/postcss-selector-parser
+569 silly REMOVE node_modules/npm/node_modules/path-scurry
+570 silly REMOVE node_modules/npm/node_modules/parse-conflict-json
+571 silly REMOVE node_modules/npm/node_modules/pacote
+572 silly REMOVE node_modules/npm/node_modules/p-map
+573 silly REMOVE node_modules/npm/node_modules/npm-user-validate
+574 silly REMOVE node_modules/npm/node_modules/npm-registry-fetch
+575 silly REMOVE node_modules/npm/node_modules/npm-profile
+576 silly REMOVE node_modules/npm/node_modules/npm-pick-manifest
+577 silly REMOVE node_modules/npm/node_modules/npm-pick-manifest/node_modules/npm-normalize-package-bin
+578 silly REMOVE node_modules/npm/node_modules/npm-packlist
+579 silly REMOVE node_modules/npm/node_modules/npm-packlist/node_modules/ignore-walk
+580 silly REMOVE node_modules/npm/node_modules/npm-package-arg
+581 silly REMOVE node_modules/npm/node_modules/npm-install-checks
+582 silly REMOVE node_modules/npm/node_modules/npm-audit-report
+583 silly REMOVE node_modules/npm/node_modules/nopt
+584 silly REMOVE node_modules/npm/node_modules/node-gyp
+585 silly REMOVE node_modules/npm/node_modules/negotiator
+586 silly REMOVE node_modules/npm/node_modules/mute-stream
+587 silly REMOVE node_modules/npm/node_modules/ms
+588 silly REMOVE node_modules/npm/node_modules/minizlib
+589 silly REMOVE node_modules/npm/node_modules/minipass-sized
+590 silly REMOVE node_modules/npm/node_modules/minipass-pipeline
+591 silly REMOVE node_modules/npm/node_modules/minipass-pipeline/node_modules/yallist
+592 silly REMOVE node_modules/npm/node_modules/minipass-pipeline/node_modules/minipass
+593 silly REMOVE node_modules/npm/node_modules/minipass-flush
+594 silly REMOVE node_modules/npm/node_modules/minipass-fetch
+595 silly REMOVE node_modules/npm/node_modules/minipass-collect
+596 silly REMOVE node_modules/npm/node_modules/minipass
+597 silly REMOVE node_modules/npm/node_modules/minimatch
+598 silly REMOVE node_modules/npm/node_modules/make-fetch-happen
+599 silly REMOVE node_modules/npm/node_modules/lru-cache
+600 silly REMOVE node_modules/npm/node_modules/libnpmversion
+601 silly REMOVE node_modules/npm/node_modules/libnpmteam
+602 silly REMOVE node_modules/npm/node_modules/libnpmsearch
+603 silly REMOVE node_modules/npm/node_modules/libnpmpublish
+604 silly REMOVE node_modules/npm/node_modules/libnpmpack
+605 silly REMOVE node_modules/npm/node_modules/libnpmorg
+606 silly REMOVE node_modules/npm/node_modules/libnpmfund
+607 silly REMOVE node_modules/npm/node_modules/libnpmexec
+608 silly REMOVE node_modules/npm/node_modules/libnpmdiff
+609 silly REMOVE node_modules/npm/node_modules/libnpmaccess
+610 silly REMOVE node_modules/npm/node_modules/just-diff-apply
+611 silly REMOVE node_modules/npm/node_modules/just-diff
+612 silly REMOVE node_modules/npm/node_modules/jsonparse
+613 silly REMOVE node_modules/npm/node_modules/json-stringify-nice
+614 silly REMOVE node_modules/npm/node_modules/json-parse-even-better-errors
+615 silly REMOVE node_modules/npm/node_modules/isexe
+616 silly REMOVE node_modules/npm/node_modules/is-cidr
+617 silly REMOVE node_modules/npm/node_modules/ip-address
+618 silly REMOVE node_modules/npm/node_modules/init-package-json
+619 silly REMOVE node_modules/npm/node_modules/ini
+620 silly REMOVE node_modules/npm/node_modules/iconv-lite
+621 silly REMOVE node_modules/npm/node_modules/http-cache-semantics
+622 silly REMOVE node_modules/npm/node_modules/hosted-git-info
+623 silly REMOVE node_modules/npm/node_modules/graceful-fs
+624 silly REMOVE node_modules/npm/node_modules/glob
+625 silly REMOVE node_modules/npm/node_modules/fs-minipass
+626 silly REMOVE node_modules/npm/node_modules/fastest-levenshtein
+627 silly REMOVE node_modules/npm/node_modules/exponential-backoff
+628 silly REMOVE node_modules/npm/node_modules/env-paths
+629 silly REMOVE node_modules/npm/node_modules/diff
+630 silly REMOVE node_modules/npm/node_modules/debug
+631 silly REMOVE node_modules/npm/node_modules/cssesc
+632 silly REMOVE node_modules/npm/node_modules/common-ancestor-path
+633 silly REMOVE node_modules/npm/node_modules/cidr-regex
+634 silly REMOVE node_modules/npm/node_modules/ci-info
+635 silly REMOVE node_modules/npm/node_modules/chownr
+636 silly REMOVE node_modules/npm/node_modules/chalk
+637 silly REMOVE node_modules/npm/node_modules/cacache
+638 silly REMOVE node_modules/npm/node_modules/brace-expansion
+639 silly REMOVE node_modules/npm/node_modules/binary-extensions
+640 silly REMOVE node_modules/npm/node_modules/bin-links
+641 silly REMOVE node_modules/npm/node_modules/bin-links/node_modules/read-cmd-shim
+642 silly REMOVE node_modules/npm/node_modules/bin-links/node_modules/npm-normalize-package-bin
+643 silly REMOVE node_modules/npm/node_modules/bin-links/node_modules/cmd-shim
+644 silly REMOVE node_modules/npm/node_modules/balanced-match
+645 silly REMOVE node_modules/npm/node_modules/archy
+646 silly REMOVE node_modules/npm/node_modules/aproba
+647 silly REMOVE node_modules/npm/node_modules/abbrev
+648 silly REMOVE node_modules/npm/node_modules/@tufjs/models
+649 silly REMOVE node_modules/npm/node_modules/@tufjs/canonical-json
+650 silly REMOVE node_modules/npm/node_modules/@sigstore/verify
+651 silly REMOVE node_modules/npm/node_modules/@sigstore/tuf
+652 silly REMOVE node_modules/npm/node_modules/@sigstore/sign
+653 silly REMOVE node_modules/npm/node_modules/@sigstore/protobuf-specs
+654 silly REMOVE node_modules/npm/node_modules/@sigstore/core
+655 silly REMOVE node_modules/npm/node_modules/@sigstore/bundle
+656 silly REMOVE node_modules/npm/node_modules/@npmcli/run-script
+657 silly REMOVE node_modules/npm/node_modules/@npmcli/redact
+658 silly REMOVE node_modules/npm/node_modules/@npmcli/query
+659 silly REMOVE node_modules/npm/node_modules/@npmcli/promise-spawn
+660 silly REMOVE node_modules/npm/node_modules/@npmcli/package-json
+661 silly REMOVE node_modules/npm/node_modules/@npmcli/node-gyp
+662 silly REMOVE node_modules/npm/node_modules/@npmcli/name-from-folder
+663 silly REMOVE node_modules/npm/node_modules/@npmcli/metavuln-calculator
+664 silly REMOVE node_modules/npm/node_modules/@npmcli/map-workspaces
+665 silly REMOVE node_modules/npm/node_modules/@npmcli/installed-package-contents
+666 silly REMOVE node_modules/npm/node_modules/@npmcli/installed-package-contents/node_modules/npm-normalize-package-bin
+667 silly REMOVE node_modules/npm/node_modules/@npmcli/installed-package-contents/node_modules/npm-bundled
+668 silly REMOVE node_modules/npm/node_modules/@npmcli/git
+669 silly REMOVE node_modules/npm/node_modules/@npmcli/fs
+670 silly REMOVE node_modules/npm/node_modules/@npmcli/config
+671 silly REMOVE node_modules/npm/node_modules/@npmcli/arborist
+672 silly REMOVE node_modules/npm/node_modules/@npmcli/agent
+673 silly REMOVE node_modules/npm/node_modules/@npmcli/agent/node_modules/https-proxy-agent
+674 silly REMOVE node_modules/npm/node_modules/@npmcli/agent/node_modules/http-proxy-agent
+675 silly REMOVE node_modules/npm/node_modules/@npmcli/agent/node_modules/agent-base
+676 silly REMOVE node_modules/npm/node_modules/@isaacs/string-locale-compare
+677 silly REMOVE node_modules/npm/node_modules/@isaacs/fs-minipass
+678 silly REMOVE node_modules/npm/node_modules/@gar/promise-retry
+679 silly REMOVE node_modules/normalize-path
+680 silly REMOVE node_modules/node-releases
+681 silly REMOVE node_modules/mz
+682 silly REMOVE node_modules/micromatch
+683 silly REMOVE node_modules/merge2
+684 silly REMOVE node_modules/lines-and-columns
+685 silly REMOVE node_modules/lilconfig
+686 silly REMOVE node_modules/jiti
+687 silly REMOVE node_modules/is-number
+688 silly REMOVE node_modules/is-glob
+689 silly REMOVE node_modules/is-extglob
+690 silly REMOVE node_modules/is-core-module
+691 silly REMOVE node_modules/is-binary-path
+692 silly REMOVE node_modules/install
+693 silly REMOVE node_modules/hasown
+694 silly REMOVE node_modules/glob-parent
+695 silly REMOVE node_modules/function-bind
+696 silly REMOVE node_modules/fraction.js
+697 silly REMOVE node_modules/fill-range
+698 silly REMOVE node_modules/fastq
+699 silly REMOVE node_modules/fast-glob
+700 silly REMOVE node_modules/fast-glob/node_modules/glob-parent
+701 silly REMOVE node_modules/escalade
+702 silly REMOVE node_modules/es-errors
+703 silly REMOVE node_modules/electron-to-chromium
+704 silly REMOVE node_modules/dlv
+705 silly REMOVE node_modules/didyoumean
+706 silly REMOVE node_modules/cssesc
+707 silly REMOVE node_modules/commander
+708 silly REMOVE node_modules/chokidar
+709 silly REMOVE node_modules/chokidar/node_modules/glob-parent
+710 silly REMOVE node_modules/caniuse-lite
+711 silly REMOVE node_modules/camelcase-css
+712 silly REMOVE node_modules/browserslist
+713 silly REMOVE node_modules/braces
+714 silly REMOVE node_modules/binary-extensions
+715 silly REMOVE node_modules/baseline-browser-mapping
+716 silly REMOVE node_modules/autoprefixer
+717 silly REMOVE node_modules/arg
+718 silly REMOVE node_modules/anymatch
+719 silly REMOVE node_modules/any-promise
+720 silly REMOVE node_modules/@typescript/typescript-win32-x64
+721 silly REMOVE node_modules/@nodelib/fs.walk
+722 silly REMOVE node_modules/@nodelib/fs.stat
+723 silly REMOVE node_modules/@nodelib/fs.scandir
+724 silly REMOVE node_modules/@jridgewell/trace-mapping
+725 silly REMOVE node_modules/@jridgewell/sourcemap-codec
+726 silly REMOVE node_modules/@jridgewell/resolve-uri
+727 silly REMOVE node_modules/@jridgewell/gen-mapping
+728 silly REMOVE node_modules/@alloc/quick-lru
+729 verbose cwd C:\Users\Avani\Desktop\quizz-wizz-ai
+730 verbose os Windows_NT 10.0.26200
+731 verbose node v24.18.0
+732 verbose npm  v11.16.0
+733 notice
+733 notice New major version of npm available! 11.16.0 -> 12.0.2
+733 notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+733 notice To update run: npm install -g npm@12.0.2
+733 notice  { force: true, Symbol(proc-log.meta): true }
+734 verbose exit 0
+735 info ok
