@@ -41,6 +41,8 @@ src/
 
 <img width="2792" height="1525" alt="Screenshot 2026-08-22 033700" src="https://github.com/user-attachments/assets/739a3d9d-662f-4171-97e5-8909eb2d9f3c" />
 
+Vercel Deployment Link: [https://quizz-wizz-dqc4y5zda-khedkaravani-3043s-projects.vercel.app/]
+
 ---
 
 ## ⚙️ Setup & Installation
