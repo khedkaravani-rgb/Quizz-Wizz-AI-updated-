@@ -19,7 +19,7 @@ Quizz‑Wizz‑AI helps learners practice smarter by generating adaptive quizzes
 ## 🛠 Tech Stack
 - **Frontend:** React + TypeScript + TailwindCSS
 - **Backend/Data:** Supabase + PostgreSQL
-- **AI Integration:** Gemini API / OpenAI API
+- **AI Integration:** Gemini API
 - **Build Tool:** Vite
 - **Deployment:** Vercel
 
@@ -63,3 +63,4 @@ Vercel Deployment Link: [https://quizz-wizz-dqc4y5zda-khedkaravani-3043s-project
    ```
 
 ## Project runs well locally, unable to deploy on vercel right now
+

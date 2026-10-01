@@ -1,2 +1,8 @@
 node_modules
 dist
+supabase/.temp
+.env
+.env.*
+!.env.example
+supabase/functions/.env
+.npm-cache
