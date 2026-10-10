@@ -62,5 +62,4 @@ Vercel Deployment Link: [https://quizz-wizz-dqc4y5zda-khedkaravani-3043s-project
     npm run dev
    ```
 
-## Project runs well locally, unable to deploy on vercel right now
 
